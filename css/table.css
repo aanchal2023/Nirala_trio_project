@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+:root {
+  --white: #fff;
+  --darkblue: #285876;
+  --lightblue: #edf2f4;
+}
+tr:nth-child(even) {
+    background-color: #e8ebf0;
+  }
+  tr:nth-child(odd) {
+    background-color: #eaedf5;
+  }
+  th {
+    background-color: #59c8e7;
+    color: white;
+  }
+  .noBorder {
+      border:none !important;
+  }
+
+  /* onecard */
+/* 
+.onecard{
+  height: 400px;
+  width: 500px;
+   bottom: 40px;
+   padding: 20px;
+  color: white;
+  background-image: url("https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+position: relative;
+  cursor: pointer;
+}
+
+.onecontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(31, 31, 31, 0.85);
+  height: 100%;
+  width: 100%;
+  bottom: 40px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: flex;
+justify-content: center;
+}
+
+.onecontent *{
+  transform: translateY(-70%);
+  transition: all 0.3s ease;
+  opacity: 0;
+bottom: 0px;
+display: flex;
+justify-content: center;
+
+}
+
+.onecontent h2{
+  font-size: 35px;
+  margin: 15px;
+  font-weight: 700;
+}
+
+.onecontent h3{
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.onecard:hover .onecontent{
+  opacity: 1;
+}
+
+.onecard:hover .onecontent *{
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  transform: translateY(0);
+} */
